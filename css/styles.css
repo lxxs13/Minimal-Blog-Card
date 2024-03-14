@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add some styles for body*/
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  background: #fafaf9;
+  font-family: "Sora", sans-serif;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  column-gap: 1.5rem;
+}
+
+.link-card {
+  padding: 1rem;
+  border: 0.5px solid transparent;
+  transition: all ease-in-out 50ms;
+  cursor: pointer;
+}
+
+.link-card:hover {
+  border: 0.5px solid #1e293b;
+  background-color: #94a3b817;
+  border-radius: 8px;
+}
+
+.link-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.link-description {
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top: 0.5rem;
+  color: #94a3b8;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 6px 10px 9px 0px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  column-gap: 1.5rem;
+}
+
+img {
+  width: 336px;
+  border-radius: 8px;
+}
+
+button {
+  width: fit-content;
+  border-radius: 16px;
+  color: #883ae1;
+  background-color: #e6d6fc;
+  border: none;
+  padding: 6px 16px;
+}
+
+p {
+  display: inline-block;
+  width: 336px;
+}
+
+hr {
+    color: #E5EAF0;
+    width: 100%;
+}
